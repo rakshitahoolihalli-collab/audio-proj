@@ -46,5 +46,5 @@ def main():
 def main():
     print("App started")
 
-if __name__ == "__main__":
+if _name_ == "__main__":
     main()
