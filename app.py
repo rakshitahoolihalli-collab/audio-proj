@@ -43,5 +43,8 @@ def main():
             except Exception as e:
                 st.error(f"Error: {e}")
 
-if _name_ == "_main_":
+def main():
+    print("App started")
+
+if __name__ == "__main__":
     main()
