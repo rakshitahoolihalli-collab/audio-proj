@@ -11,8 +11,8 @@ langs_dict = GoogleTranslator().get_supported_languages(as_dict=True)
 
 def main():
     # Safety check for the image file
-    if os.path.exists("th.jpg"):
-        st.image("th.jpg")
+    if os.path.exists("WIN_20251114_13_21_52_Pro.jpg"):
+        st.image("WIN_20251114_13_21_52_Pro.jpg")
     
     # Your updated title
     st.title("Subrahmanya")
